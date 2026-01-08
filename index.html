@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DROPLAWI | CATÁLOGO</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://unpkg.com/@phosphor-icons/web"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+	<style>
+		/* Ajuste fino de posicionamento */
+		.container {
+			min-height: 85vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			/* Alinha ao topo para controlar o padding */
+			padding-top: 20px !important;
+			/* Diminuído o espaço antes do logo */
+		}
+
+		.hero {
+			padding-top: 0 !important;
+			margin-top: 0 !important;
+		}
+
+		.profile-pic {
+			width: 140px;
+			height: auto;
+			margin-bottom: 15px;
+			/* Menos espaço abaixo do logo */
+		}
+
+		h1 {
+			font-size: 3.5rem;
+			margin-bottom: 5px;
+			letter-spacing: -1px;
+		}
+
+		.subtitle {
+			margin-bottom: 15px;
+			font-weight: 600;
+		}
+
+		.bio {
+			margin-bottom: 25px;
+			max-width: 600px;
+			line-height: 1.4;
+		}
+
+		/* Área de download compacta */
+		.download-area {
+			margin-bottom: 20px;
+		}
+
+		.contact-btn {
+			padding: 18px 36px;
+			font-size: 1.1rem;
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+			text-transform: uppercase;
+			font-weight: 800;
+		}
+
+		.social-icons {
+			margin-top: 30px !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="particles-js"></div>
+
+	<nav class="navbar">
+		<div class="nav-links">
+			<a href="https://droplawi.com/">Ir para o site</a>
+		</div>
+	</nav>
+
+	<main class="container">
+		<section class="hero">
+			<img src="favicondroplawi.png" alt="Droplawi" class="profile-pic">
+
+			<h1>Catálogo</h1>
+
+			<p class="subtitle">Acesso exclusivo</p>
+
+			<p class="bio">
+				Faz o download da lista completa de produtos da <strong>Droplawi</strong>.
+			</p>
+
+			<div class="download-area">
+				<a href="catalogo.xlsx" download class="contact-btn">
+					<i class="ph ph-file-xls"></i>
+					DESCARREGAR CATÁLOGO
+				</a>
+			</div>
+
+			<div class="social-icons">
+				<a href="https://www.instagram.com/droplawi" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+				<a href="mailto:droplawiwholesale@gmail.com"><i class="ph ph-envelope"></i></a>
+			</div>
+		</section>
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
